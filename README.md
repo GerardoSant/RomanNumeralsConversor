@@ -37,11 +37,11 @@ Testing
 
  <br>
 
-* REST API
+* REST API description
 
 ![alt-text](https://github.com/GerardoSant/RomanNumeralsConversor/blob/master/preview/api.PNG)
 
- <br>
+ * REST API example with Postman
  
  ![alt-text](https://github.com/GerardoSant/RomanNumeralsConversor/blob/master/preview/api2.PNG)
 
