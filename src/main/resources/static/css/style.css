@@ -1,0 +1,42 @@
+.pricing-header {
+    max-width: 850px;
+}
+.container {
+    max-width: 850px;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
+pre code.http.hljs {
+    font-size: 11px;
+    background-color: #272833;
+}
+
+.pl-5, .px-5 {
+    padding-left: 3rem!important;
+}
+.rounded-corners {
+    border-radius: 4px;
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: 0.5em;
+    color: #abb2bf;
+    background: #282c34;
+}
+
+.hljs-keyword, .hljs-formula {
+    color: #c678dd;
+}
+.hljs-string, .hljs-regexp, .hljs-addition, .hljs-attribute, .hljs-meta-string {
+    color: #98c379;
+}
+
+.hidden{
+    display: none;
+}
+.nav-item:hover{
+    text-decoration: underline;
+}
