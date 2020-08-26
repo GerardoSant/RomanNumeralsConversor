@@ -27,19 +27,21 @@ Frontend
 * [Thymeleaf](https://www.thymeleaf.org/) -  Server-side Java template engine 
 
 Testing
-*[JUnit](https://junit.org/junit5/) -  Unit testing framework for the Java programming language
+* [JUnit](https://junit.org/junit5/) -  Unit testing framework for the Java programming language
 
 ## Preview
 
 * Conversor
 
-![alt-text](https://github.com/GerardoSant/Finbook/blob/develop/gifs/landingpage.gif)
+![alt-text](https://github.com/GerardoSant/RomanNumeralsConversor/blob/master/preview/conversor.gif)
 
  <br>
 
 * REST API
 
-![alt-text](https://github.com/GerardoSant/Finbook/blob/develop/gifs/dashboard.gif)
+![alt-text](https://github.com/GerardoSant/RomanNumeralsConversor/blob/master/preview/api.PNG)
 
  <br>
+ 
+ ![alt-text](https://github.com/GerardoSant/RomanNumeralsConversor/blob/master/preview/api2.PNG)
 
