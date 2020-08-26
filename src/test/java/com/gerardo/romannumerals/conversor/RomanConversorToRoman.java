@@ -9,13 +9,13 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 @RunWith(org.junit.runners.Parameterized.class)
-public class RomanNumerals_ {
+public class RomanConversorToRoman {
 
     private final int number;
     private final String value;
     private final Class exceptionClass;
 
-    public RomanNumerals_(int number, String value, Class exceptionClass) {
+    public RomanConversorToRoman(int number, String value, Class exceptionClass) {
         this.number = number;
         this.value = value;
         this.exceptionClass = exceptionClass;

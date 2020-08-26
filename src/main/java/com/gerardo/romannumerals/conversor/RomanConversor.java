@@ -8,24 +8,29 @@ public class RomanConversor {
         return (new TupleMapper(new NumberBreaker(decimalNumber).breakdown())).getRomanNumber();
     }
 
-    public int toDecimal(String arabicNumber){
+    public int toDecimal(String arabicNumber) throws Exception{
         return romanToDecimal(arabicNumber);
     }
 
-    private int romanToDecimal(String num) {
+    private int romanToDecimal(String num) throws Exception {
         Hashtable<Character, Integer> ht = getRomansMap();
-        int intNum=0;
-        int prev = 0;
-        for(int i = num.length()-1; i>=0 ; i--)
-        {
-            int temp = ht.get(num.charAt(i));
-            if(temp < prev)
-                intNum-=temp;
-            else
-                intNum+=temp;
-            prev = temp;
+        try{
+            int intNum=0;
+            int prev = 0;
+            for(int i = num.length()-1; i>=0 ; i--)
+            {
+                int temp = ht.get(num.charAt(i));
+                if(temp < prev)
+                    intNum-=temp;
+                else
+                    intNum+=temp;
+                prev = temp;
+            }
+            return intNum;
+        } catch(Exception e){
+            throw e;
         }
-        return intNum;
+
     }
 
     private Hashtable<Character, Integer> getRomansMap() {
