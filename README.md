@@ -33,7 +33,7 @@ Testing
 
 * Conversor
 
-![alt-text](https://github.com/GerardoSant/RomanNumeralsConversor/blob/master/preview/conversor.gif)
+<kbd><img src="https://github.com/GerardoSant/RomanNumeralsConversor/blob/master/preview/conversor.gif" /></kbd>
 
  <br>
 
