@@ -39,9 +39,9 @@ Testing
 
 * REST API
 
-![alt-text](https://github.com/GerardoSant/RomanNumeralsConversor/blob/master/preview/api.png)
+![alt-text](https://github.com/GerardoSant/RomanNumeralsConversor/blob/master/preview/api.PNG)
 
  <br>
  
- ![alt-text](https://github.com/GerardoSant/RomanNumeralsConversor/blob/master/preview/api2.png)
+ ![alt-text](https://github.com/GerardoSant/RomanNumeralsConversor/blob/master/preview/api2.PNG)
 
